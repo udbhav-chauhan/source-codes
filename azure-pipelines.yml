@@ -33,7 +33,7 @@ stages:
         backendAzureRmResourceGroupName: 'udbhav_rg'
         backendAzureRmStorageAccountName: 'udbhavstorage'
         backendAzureRmContainerName: 'udbhavcontainer'
-        backendAzureRmKey: '- task: TerraformTask@5
+        backendAzureRmKey: 'prod.tfstate'
 
 #     - task: TerraformTask@5
 #       displayName: "Terraform Validate"
